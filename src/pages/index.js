@@ -21,9 +21,9 @@ export default function Page() {
         <Background />
         <Typography
           bold
-          className="tracking-wider uppercase text-3xl text-black md:text-6xl"
+          className="tracking-wider uppercase text-3xl text-black md:text-6xl font-brand"
         >
-          Coming Soon
+          Taos & Co. Coming Soon
         </Typography>
       </Layout>
     </div>
