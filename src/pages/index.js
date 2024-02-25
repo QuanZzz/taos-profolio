@@ -17,7 +17,12 @@ export default function Page() {
           href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="/images/favicon.ico"
+          sizes="any"
+        />
         <title>TAOS ARCHITECTURAL VISUALIZATION</title>
         <meta name="description" content="TAOS ARCHITECTURAL VISUALIZATION" />
       </Head>
