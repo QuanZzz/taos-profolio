@@ -30,7 +30,7 @@ export default function Page() {
         <Background />
         <div className="flex flex-col items-center">
           <Typography
-            semiBold={true}
+            bold={true}
             className="tracking-wider uppercase text-3xl text-black md:text-6xl font-brand"
           >
             Taos & Co.
@@ -42,7 +42,7 @@ export default function Page() {
             A creative company
           </Typography>
           <Typography
-            semiBold={true}
+            bold={true}
             className="pt-6 tracking-wider uppercase text-3xl text-black md:text-6xl font-brand"
           >
             Coming soon
