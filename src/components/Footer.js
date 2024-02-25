@@ -3,7 +3,7 @@ import taosLogo from "../../public/images/taos-logo-light.jpg";
 import { Typography } from "./Typography";
 import { IconButton } from "./IconButton";
 import { InstagramIcon } from "./Icons";
-import { INSTAGRAM_LINK, GMAIL_LINK } from "@/utils/urls";
+import { INSTAGRAM_LINK, EMAIL_LINK, COMPANY_WEBSITE } from "@/utils/urls";
 
 export const Footer = () => {
   const handleOnClick = () => {
@@ -23,7 +23,7 @@ export const Footer = () => {
           />
         </div>
         <Typography className="font-bold tracking-wide text-xs">
-          {GMAIL_LINK}
+          {EMAIL_LINK} | {COMPANY_WEBSITE}
         </Typography>
         <IconButton
           icon={<InstagramIcon className="w-8 h-8 mt-2 md:mt-0 md:ml-4" />}

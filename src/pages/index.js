@@ -14,7 +14,7 @@ export default function Page() {
           crossOrigin="true"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
           rel="stylesheet"
         />
         <link
@@ -28,7 +28,7 @@ export default function Page() {
       </Head>
       <Layout>
         <Background />
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center">
           <Typography
             semiBold={true}
             className="tracking-wider uppercase text-3xl text-black md:text-6xl font-brand"
@@ -37,7 +37,13 @@ export default function Page() {
           </Typography>
           <Typography
             semiBold={true}
-            className="pt-4 tracking-wider uppercase text-3xl text-black md:text-6xl font-brand"
+            className="tracking-wider uppercase text-sm text-black md:text-lg font-brand pt-2"
+          >
+            A creative company
+          </Typography>
+          <Typography
+            semiBold={true}
+            className="pt-6 tracking-wider uppercase text-3xl text-black md:text-6xl font-brand"
           >
             Coming soon
           </Typography>
