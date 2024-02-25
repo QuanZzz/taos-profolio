@@ -9,7 +9,6 @@ export const Background = () => (
     quality={100}
     fill
     sizes="100vw"
-    objectFit="cover"
-    className="opacity-85 -z-10"
+    className="opacity-90 -z-10 object-cover"
   />
 );

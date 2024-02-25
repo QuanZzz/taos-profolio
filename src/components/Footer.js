@@ -7,7 +7,7 @@ import { INSTAGRAM_LINK, GMAIL_LINK } from "@/utils/urls";
 
 export const Footer = () => {
   const handleOnClick = () => {
-    window.location.href = INSTAGRAM_LINK;
+    window.open(INSTAGRAM_LINK, "_blank", "noreferrer");
   };
 
   return (
@@ -18,17 +18,17 @@ export const Footer = () => {
             className="-ml-3"
             src={taosLogo}
             alt="taos-design-logo"
-            layout="responsive"
             width={800}
             height={200}
           />
         </div>
         <Typography className="font-bold tracking-wide text-xs">
-          Email: {GMAIL_LINK}
+          {GMAIL_LINK}
         </Typography>
         <IconButton
           icon={<InstagramIcon className="w-8 h-8 mt-2 md:mt-0 md:ml-4" />}
           onClick={handleOnClick}
+          target="_blank"
           className="hover:text-blue-500"
         />
       </div>
