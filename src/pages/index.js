@@ -28,7 +28,7 @@ export default function Page() {
       </Head>
       <Layout>
         <Background />
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mt-16">
           <Typography
             bold={true}
             className="tracking-wider uppercase text-3xl text-black md:text-6xl font-brand"
@@ -40,12 +40,6 @@ export default function Page() {
             className="tracking-wider uppercase text-sm text-black md:text-lg font-brand pt-2"
           >
             A creative company
-          </Typography>
-          <Typography
-            bold={true}
-            className="pt-6 tracking-wider uppercase text-3xl text-black md:text-6xl font-brand"
-          >
-            Coming soon
           </Typography>
         </div>
       </Layout>
