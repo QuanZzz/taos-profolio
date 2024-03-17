@@ -11,30 +11,31 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="w-full py-4 bg-gray-900 text-center flex flex-col justify-center pb-10 text-white">
+    <footer className="w-full py-4 bg-zinc-900 text-center flex flex-col justify-center pb-10 text-white">
       <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="w-48 sm:w-72">
           <Image
-            className="-ml-3"
+            className="-ml-3 md:-mt-2"
             src={taosLogo}
             alt="taos-design-logo"
             width={800}
             height={200}
           />
         </div>
-        <Typography className="font-bold tracking-wide text-xs">
+        <Typography className="font-brand tracking-widest text-xs font-extralight">
           {EMAIL_LINK} | {COMPANY_WEBSITE}
         </Typography>
         <IconButton
-          icon={<InstagramIcon className="w-8 h-8 mt-2 md:mt-0 md:ml-4" />}
+          icon={
+            <InstagramIcon className="w-6 h-6 mt-2 md:mt-0 md:ml-4 text-neutral-500" />
+          }
           onClick={handleOnClick}
           target="_blank"
           className="hover:text-blue-500"
         />
       </div>
-      <p className="text-xs text-gray-700 mt-4">
-        © {new Date().getFullYear()} by TAOS ARCHITECTURAL VISUALIZATION. All
-        rights reserved.
+      <p className="text-xs text-gray-700 mt-2.5">
+        © {new Date().getFullYear()} by TAOS & CO. INC. All rights reserved.
       </p>
     </footer>
   );

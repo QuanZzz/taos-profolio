@@ -28,16 +28,16 @@ export default function Page() {
       </Head>
       <Layout>
         <Background />
-        <div className="flex flex-col items-center mt-16">
+        <div className="flex flex-col items-center mt-4 md:mt-6">
           <Typography
             bold={true}
-            className="tracking-wider uppercase text-3xl text-black md:text-6xl font-brand"
+            className="tracking-normal uppercase text-[45px] text-black md:text-6xl font-brand mb-[-7px]"
           >
             Taos & Co.
           </Typography>
           <Typography
             semiBold={true}
-            className="tracking-wider uppercase text-sm text-black md:text-lg font-brand pt-2"
+            className="tracking-wider uppercase text-[10px] text-black md:text-sm md:mt-2 font-brand"
           >
             A creative company
           </Typography>
