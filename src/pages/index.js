@@ -1,7 +1,7 @@
-import { Background } from "@/components/Background";
 import { Layout } from "@/components/Layout";
 import { Typography } from "@/components/Typography";
 import Head from "next/head";
+import "../app/globals.css";
 
 export default function Page() {
   return (
@@ -27,7 +27,6 @@ export default function Page() {
         <meta name="description" content="TAOS ARCHITECTURAL VISUALIZATION" />
       </Head>
       <Layout>
-        <Background />
         <div className="flex flex-col items-center mt-4 md:mt-6">
           <Typography
             bold={true}

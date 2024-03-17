@@ -5,3 +5,7 @@
 .font-brand {
   font-family: "Josefin Sans", sans-serif;
 }
+
+.bg-main {
+  background: 50% / cover no-repeat url("/images/taos-bg.jpg") black;
+}

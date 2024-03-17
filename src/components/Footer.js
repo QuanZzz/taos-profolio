@@ -11,7 +11,7 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="w-full py-4 bg-zinc-900 text-center flex flex-col justify-center pb-10 text-white">
+    <footer className="w-full pt-2 bg-zinc-900 text-center flex flex-col justify-center pb-6 text-white">
       <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="w-48 sm:w-72">
           <Image
@@ -34,7 +34,7 @@ export const Footer = () => {
           className="hover:text-blue-500"
         />
       </div>
-      <p className="text-xs text-gray-700 mt-2.5">
+      <p className="text-[10px] text-neutral-500 mt-2.5">
         © {new Date().getFullYear()} by TAOS & CO. INC. All rights reserved.
       </p>
     </footer>
