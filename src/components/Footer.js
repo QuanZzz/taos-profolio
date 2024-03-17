@@ -22,7 +22,7 @@ export const Footer = () => {
             height={200}
           />
         </div>
-        <Typography className="font-brand tracking-widest text-xs font-extralight">
+        <Typography className="font-brand tracking-widest text-xs font-extralight no-underline">
           {EMAIL_LINK} | {COMPANY_WEBSITE}
         </Typography>
         <IconButton
