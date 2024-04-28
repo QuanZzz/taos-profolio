@@ -6,6 +6,10 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+.font-rubik {
+  font-family: "Rubik", Helvetica, Arial, Lucida, sans-serif;
+}
+
 .bg-main {
   background: 50% / cover no-repeat url("/images/taos-bg.jpg") black;
 }

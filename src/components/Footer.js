@@ -15,7 +15,7 @@ export const Footer = () => {
       <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="w-48 sm:w-72">
           <Image
-            className="-ml-3 md:-mt-2"
+            className="-ml-3 md:-mt-2 hover:text-blue-500 cursor-pointer"
             src={taosLogo}
             alt="taos-design-logo"
             width={800}

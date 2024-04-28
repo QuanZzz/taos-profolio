@@ -7,7 +7,7 @@ export const GallerySection = ({ projects }) => {
   }
 
   return (
-    <div className="flex flex-col items-center md:items-start">
+    <div className="flex flex-col items-center md:items-start font-rubik">
       <Typography className="px-40 py-16 text-lg md:text-2xl font-bold md:pr-32 md:font-black">
         Visualization Projects
       </Typography>
