@@ -37,15 +37,15 @@ export default function Page() {
       <Layout>
         <Header />
         <div className="w-full h-screen flex flex-col bg-main">
-          <div className="px-3 md:px-0 h-full flex flex-col justify-center mx-auto items-start text-white">
+          <div className="mx-5 md:px-0 pt-20 md:pt-36 h-full flex flex-col mx-auto items-start text-white">
             <Typography
               semiBold={true}
               className="font-rubik text-3xl md:text-6xl"
             >
-              Residential Montreal
+              Luxury in Detail: Architectural Design and Rendering Excellence
             </Typography>
             <Typography className="font-rubik text-base mt-4 md:text-xl">
-              Year: 2022
+              Jerry Wang
             </Typography>
           </div>
           <div></div>
