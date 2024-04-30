@@ -4,6 +4,7 @@ import { Layout } from "@/components/Layout";
 import { Header } from "@/components/Header";
 import toast, { Toaster } from "react-hot-toast";
 import Head from "next/head";
+import favicon from "../../public/favicon.ico";
 
 export default function Page() {
   const form = useRef();
@@ -35,12 +36,7 @@ export default function Page() {
   return (
     <div>
       <Head>
-        <link
-          rel="icon"
-          type="image/x-icon"
-          href="/images/favicon.ico"
-          sizes="any"
-        />
+        <link rel="icon" type="image/x-icon" href={favicon.src} sizes="any" />
         <title>TAOS ARCHITECTURAL VISUALIZATION</title>
         <meta name="description" content="TAOS ARCHITECTURAL VISUALIZATION" />
       </Head>
