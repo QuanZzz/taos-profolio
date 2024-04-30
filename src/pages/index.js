@@ -24,12 +24,7 @@ export default function Page() {
   return (
     <div>
       <Head>
-        <link
-          rel="icon"
-          type="image/x-icon"
-          href="/images/favicon.ico"
-          sizes="any"
-        />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any" />
         <title>TAOS ARCHITECTURAL VISUALIZATION</title>
         <meta name="description" content="TAOS ARCHITECTURAL VISUALIZATION" />
       </Head>
