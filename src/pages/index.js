@@ -23,17 +23,8 @@ export default function Page() {
 
   return (
     <div>
-      <Head>
+      {/* <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        {/* <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-          rel="stylesheet"
-        /> */}
         <link
           rel="icon"
           type="image/x-icon"
@@ -49,7 +40,7 @@ export default function Page() {
         ></link>
         <title>TAOS ARCHITECTURAL VISUALIZATION</title>
         <meta name="description" content="TAOS ARCHITECTURAL VISUALIZATION" />
-      </Head>
+      </Head> */}
       <Layout>
         <Header />
         <div className="w-full h-screen flex flex-col bg-main">
