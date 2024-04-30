@@ -9,7 +9,7 @@ import { projects } from "@/utils/projects";
 import { GallerySection } from "@/components/GallerySection";
 import { INSTAGRAM_LINK, TIKTOK_LINK, TWITTER_LINK } from "@/utils/urls";
 import { HightlightSection } from "@/components/HighlightSection";
-import favicon from "../public/images/favicon.ico";
+import favicon from "../public/favicon.ico";
 
 export default function Page() {
   const links = {
