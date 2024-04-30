@@ -3,7 +3,7 @@ import { Typography } from "./Typography";
 export const HightlightSection = () => (
   <>
     <div className="flex flex-col md:flex-row items-center bg-[#e6f3f4] md:pl-10 font-rubik">
-      <div className="py-16 md:py-0 w-full md:w-3/12 min-w-300[px] md:max-w-[400px] md:px-5 flex flex-col md:items-center">
+      <div className="py-16 md:py-0 w-full md:w-3/12 min-w-[300px] md:max-w-[400px] md:px-5 flex flex-col md:items-center">
         <Typography
           bold={true}
           className="mx-16 md:mx-0 text-3xl md:max-w-[200px] md:mx-auto pb-10 md:border-b md:border-b-[3px] md:border-b-black"
@@ -86,7 +86,7 @@ export const HightlightSection = () => (
       <div className="md:pr-10 pb-10 md:pb-0">
         <img src="/images/14.webp" />
       </div>
-      <div className="py-16 md:py-0 w-full w-3/12 min-w-300[px] max-w-[400px] md:px-5 flex flex-col md:items-center">
+      <div className="py-16 md:py-0 w-full w-3/12 min-w-[300px] max-w-[400px] md:px-5 flex flex-col md:items-center">
         <Typography
           bold={true}
           className="mx-16 md:mx-0 text-3xl md:max-w-[200px] md:mx-auto pb-10 md:border-b md:border-b-[3px] md:border-b-black"

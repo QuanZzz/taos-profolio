@@ -24,7 +24,6 @@ export default function Page() {
   return (
     <div>
       <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="icon"
           type="image/x-icon"
@@ -37,27 +36,27 @@ export default function Page() {
       <Layout>
         <Header />
         <div className="w-full h-screen flex flex-col bg-main">
-          <div className="mx-5 md:px-0 pt-20 md:pt-36 h-full flex flex-col mx-auto items-start text-white">
+          <div className="md:px-0 pt-20 md:pt-36 h-full flex flex-col mx-auto items-start text-white">
             <Typography
               semiBold={true}
-              className="font-rubik text-3xl md:text-6xl"
+              className="mx-8 font-rubik text-3xl md:text-6xl"
             >
               Luxury in Detail: Architectural Design and Rendering Excellence
             </Typography>
-            <Typography className="font-rubik text-base mt-4 md:text-xl">
+            {/* <Typography className="mx-8 font-rubik text-base mt-4 md:text-xl">
               Jerry Wang
-            </Typography>
+            </Typography> */}
           </div>
           <div></div>
         </div>
 
         <div className="bg-transparent flex flex-col items-center font-rubik">
-          <div className="py-8 px-40 w-full flex flex-col md:flex-row items-center md:justify-between">
+          <div className="py-8 md:px-40 w-full flex flex-col md:flex-row items-center md:justify-between">
             <Typography
               semiBold={true}
               className="text-lg md:text-2xl md:pr-32 md:font-black"
             >
-              Visualization Projects
+              Unveiling Our Latest Works
             </Typography>
             <div className="flex mt-8 md:mt-0 flex-row md:flex-col items-start text-black">
               <div className="flex items-center">

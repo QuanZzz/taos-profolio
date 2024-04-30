@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { projects } from "@/utils/projects";
 import { Typography } from "@/components/Typography";
 import { GallerySection } from "@/components/GallerySection";
+import Head from "next/head";
 
 export default function Page() {
   const router = useRouter();
@@ -15,21 +16,33 @@ export default function Page() {
   }
 
   return (
-    <Layout>
-      <Header />
+    <div>
+      <Head>
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="/images/favicon.ico"
+          sizes="any"
+        />
+        <title>TAOS ARCHITECTURAL VISUALIZATION</title>
+        <meta name="description" content="TAOS ARCHITECTURAL VISUALIZATION" />
+      </Head>
+      <Layout>
+        <Header />
 
-      <div className="my-12">
-        <div className="px-10 py-8">
-          <img src={project.img} />
-        </div>
-        <div className="px-10 py-8">
-          <Typography bold={true} className="text-lg">
-            {project.title}
-          </Typography>
-        </div>
+        <div className="my-12">
+          <div className="px-10 py-8">
+            <img src={project.img} />
+          </div>
+          <div className="px-10 py-8">
+            <Typography bold={true} className="text-lg">
+              {project.title}
+            </Typography>
+          </div>
 
-        <GallerySection projects={projects} />
-      </div>
-    </Layout>
+          <GallerySection projects={projects} />
+        </div>
+      </Layout>
+    </div>
   );
 }

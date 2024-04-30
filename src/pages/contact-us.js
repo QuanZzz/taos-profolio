@@ -35,7 +35,6 @@ export default function Page() {
   return (
     <div>
       <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="icon"
           type="image/x-icon"
