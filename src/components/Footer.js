@@ -4,6 +4,7 @@ import { Typography } from "./Typography";
 import { IconButton } from "./IconButton";
 import { InstagramIcon } from "./Icons";
 import { INSTAGRAM_LINK, EMAIL_LINK, COMPANY_WEBSITE } from "@/utils/urls";
+import Link from "next/link";
 
 export const Footer = () => {
   const handleOnClick = () => {
@@ -13,7 +14,7 @@ export const Footer = () => {
   return (
     <footer className="w-full pt-2 bg-zinc-900 text-center flex flex-col justify-center pb-6 text-white">
       <div className="flex flex-col md:flex-row items-center justify-center">
-        <a className="w-48 sm:w-72" href="/">
+        <Link className="w-48 sm:w-72" href="/">
           <Image
             className="-ml-3 md:-mt-2 hover:text-blue-500 cursor-pointer"
             src={taosLogo}
@@ -21,7 +22,7 @@ export const Footer = () => {
             width={800}
             height={200}
           />
-        </a>
+        </Link>
         <Typography className="font-brand tracking-widest text-xs font-extralight no-underline">
           {EMAIL_LINK} | {COMPANY_WEBSITE}
         </Typography>

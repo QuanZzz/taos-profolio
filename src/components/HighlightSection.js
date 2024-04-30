@@ -17,12 +17,12 @@ export const HightlightSection = () => (
         >
           The backyard sanctuary of an opulent estate, where every detail
           whispers indulgence and tranquility. Here, a glistening pool beckons
-          under the sun's warm embrace, surrounded by lush greenery that dances
-          with the breeze. The spacious terrace, adorned with plush furnishings,
-          invites you to unwind and savor moments of leisure in utmost comfort.
-          This is more than a home; it's a retreat, where luxury intertwines
-          effortlessly with the serenity of nature, promising a life of
-          unparalleled richness and relaxation.
+          under the sun&apos;s warm embrace, surrounded by lush greenery that
+          dances with the breeze. The spacious terrace, adorned with plush
+          furnishings, invites you to unwind and savor moments of leisure in
+          utmost comfort. This is more than a home; it&apos;s a retreat, where
+          luxury intertwines effortlessly with the serenity of nature, promising
+          a life of unparalleled richness and relaxation.
         </Typography>
       </div>
       <div className="pt-5 md:pt-0 md:pl-10">
@@ -70,7 +70,7 @@ export const HightlightSection = () => (
           className="text-base md:text-lg px-16 md:px-0 md:max-w-[200px] mx-auto pt-5"
         >
           A hidden gem nestled in the back alleys of Toronto, providing a fresh,
-          affordable solution to the city's housing crunch. Designed by
+          affordable solution to the city&apos;s housing crunch. Designed by
           TAOSCO&Unikhouse, this innovative space maintains a high-quality
           design aesthetic while remaining budget-friendly. Large
           floor-to-ceiling windows flood the interiors with natural light,
