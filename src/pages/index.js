@@ -53,7 +53,7 @@ export default function Page() {
       <Layout>
         <Header />
         <div className="w-full h-screen flex flex-col bg-main">
-          <div className="h-full flex flex-col justify-center mx-auto items-start text-white">
+          <div className="px-3 md:px-0 h-full flex flex-col justify-center mx-auto items-start text-white">
             <Typography
               semiBold={true}
               className="font-rubik text-3xl md:text-6xl"

@@ -13,7 +13,7 @@ export const Header = () => {
       </a>
       <nav className="bg-transparent flex items-center">
         <div className="flex items-center mx-auto w-full px-2.5">
-          <a href="/how-it-works" className="hover:text-[#ba9974]">
+          <a href="/contact-us" className="hover:text-[#ba9974]">
             Contact us
           </a>
         </div>

@@ -13,7 +13,7 @@ export const Footer = () => {
   return (
     <footer className="w-full pt-2 bg-zinc-900 text-center flex flex-col justify-center pb-6 text-white">
       <div className="flex flex-col md:flex-row items-center justify-center">
-        <div className="w-48 sm:w-72">
+        <a className="w-48 sm:w-72" href="/">
           <Image
             className="-ml-3 md:-mt-2 hover:text-blue-500 cursor-pointer"
             src={taosLogo}
@@ -21,13 +21,13 @@ export const Footer = () => {
             width={800}
             height={200}
           />
-        </div>
+        </a>
         <Typography className="font-brand tracking-widest text-xs font-extralight no-underline">
           {EMAIL_LINK} | {COMPANY_WEBSITE}
         </Typography>
         <IconButton
           icon={
-            <InstagramIcon className="w-6 h-6 mt-2 md:mt-0 md:ml-4 text-neutral-500" />
+            <InstagramIcon className="w-6 h-6 mt-2 md:mt-0 md:ml-4 text-neutral-500 hover:text-blue-500" />
           }
           onClick={handleOnClick}
           target="_blank"

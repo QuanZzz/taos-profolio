@@ -3,7 +3,7 @@ import { Footer } from "./Footer";
 import PropTypes from "prop-types";
 
 export const Layout = ({ children }) => (
-  <div className="flex flex-col h-full">
+  <div className="flex flex-col h-screen">
     <main className="relative flex-1 overflow-y-auto z-10">
       <div className="flex flex-col justify-center mx-auto h-full">
         {children}
