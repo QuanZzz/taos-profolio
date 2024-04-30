@@ -8,12 +8,6 @@ import Head from "next/head";
 export default function Page() {
   const form = useRef();
 
-  const data = {
-    user_name: "",
-    user_email: "",
-    message: "",
-  };
-
   const sendEmail = (e) => {
     if (
       !e.target.user_name.value ||
