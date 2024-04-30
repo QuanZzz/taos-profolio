@@ -28,7 +28,7 @@ export default function Page() {
         <link
           rel="icon"
           // type="image/x-icon"
-          href="/images/favicon.ico"
+          href="/favicon.ico"
           sizes="any"
         />
         <title>TAOS ARCHITECTURAL VISUALIZATION</title>
