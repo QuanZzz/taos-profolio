@@ -2,6 +2,7 @@ import React from "react";
 import { Footer } from "./Footer";
 import PropTypes from "prop-types";
 import cx from "classnames";
+import { Analytics } from "@vercel/analytics/react";
 
 export const Layout = ({ children, className }) => (
   <div className={cx("flex flex-col h-full", className)}>
@@ -10,6 +11,7 @@ export const Layout = ({ children, className }) => (
         {children}
       </div>
       <Footer />
+      <Analytics />
     </main>
   </div>
 );
