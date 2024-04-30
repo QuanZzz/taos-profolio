@@ -9,7 +9,6 @@ import { projects } from "@/utils/projects";
 import { GallerySection } from "@/components/GallerySection";
 import { INSTAGRAM_LINK, TIKTOK_LINK, TWITTER_LINK } from "@/utils/urls";
 import { HightlightSection } from "@/components/HighlightSection";
-import favicon from "../public/favicon.ico";
 
 export default function Page() {
   const links = {
@@ -26,7 +25,12 @@ export default function Page() {
     <div>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="icon" type="image/x-icon" href={favicon} sizes="any" />
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="/images/favicon.ico"
+          sizes="any"
+        />
         <title>TAOS ARCHITECTURAL VISUALIZATION</title>
         <meta name="description" content="TAOS ARCHITECTURAL VISUALIZATION" />
       </Head>
@@ -38,10 +42,10 @@ export default function Page() {
               semiBold={true}
               className="font-rubik text-3xl md:text-6xl"
             >
-              Summerfest Pavilion Color Studies
+              Residential Montreal
             </Typography>
             <Typography className="font-rubik text-base mt-4 md:text-xl">
-              Jan 25, 2022
+              Year: 2022
             </Typography>
           </div>
           <div></div>

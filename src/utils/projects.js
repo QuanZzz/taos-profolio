@@ -119,4 +119,10 @@ export const projects = [
     title: "Condominium Oakville",
     date: "2022",
   },
+  {
+    id: 21,
+    img: "/images/21.jpg",
+    title: "Condominium Oakville",
+    date: "2022",
+  },
 ];
