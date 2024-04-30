@@ -9,6 +9,7 @@ import { projects } from "@/utils/projects";
 import { GallerySection } from "@/components/GallerySection";
 import { INSTAGRAM_LINK, TIKTOK_LINK, TWITTER_LINK } from "@/utils/urls";
 import { HightlightSection } from "@/components/HighlightSection";
+import favicon from "../../public/images/favicon.ico";
 
 export default function Page() {
   const links = {
@@ -25,12 +26,7 @@ export default function Page() {
     <div>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="icon"
-          // type="image/x-icon"
-          href="/favicon.ico"
-          sizes="any"
-        />
+        <link rel="icon" type="image/x-icon" href={favicon} sizes="any" />
         <title>TAOS ARCHITECTURAL VISUALIZATION</title>
         <meta name="description" content="TAOS ARCHITECTURAL VISUALIZATION" />
       </Head>
