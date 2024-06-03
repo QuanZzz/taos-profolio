@@ -1,7 +1,7 @@
 import { Layout } from "@/components/Layout";
 import { Header } from "@/components/Header";
 import { useRouter } from "next/router";
-import { projects } from "@/utils/projects";
+import { ALL_PROJECTS } from "@/utils/projects";
 import { Typography } from "@/components/Typography";
 import { GallerySection } from "@/components/GallerySection";
 import Head from "next/head";
@@ -10,7 +10,7 @@ import favicon from "../../../public/favicon.ico";
 export default function Page() {
   const router = useRouter();
   const projectId = router?.query?.id;
-  const project = projects.find((p) => p.id === parseInt(projectId));
+  const project = ALL_PROJECTS.find((p) => p.id === parseInt(projectId));
 
   if (!project) {
     return null;
@@ -26,7 +26,7 @@ export default function Page() {
       <Layout>
         <Header />
 
-        <div className="my-12">
+        <div className="mt-12">
           <div className="px-10 py-8">
             <img src={project.img} />
           </div>
@@ -36,7 +36,7 @@ export default function Page() {
             </Typography>
           </div>
 
-          <GallerySection projects={projects} />
+          <GallerySection projects={ALL_PROJECTS} />
         </div>
       </Layout>
     </div>

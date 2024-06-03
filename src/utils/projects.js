@@ -1,4 +1,61 @@
-export const projects = [
+export const MAIN_PROJECTS = [
+  {
+    id: 1,
+    img: "/images/1.webp",
+    title: "Residential Mississauga",
+    date: "2023",
+  },
+  {
+    id: 2,
+    img: "/images/2.webp",
+    title: "Residential Mississauga",
+    date: "2023",
+  },
+  {
+    id: 3,
+    img: "/images/3.webp",
+    title: "Residential Mississauga",
+    date: "2023",
+  },
+  {
+    id: 4,
+    img: "/images/4.webp",
+    title: "Laneway House Toronto",
+    date: "2024",
+  },
+  {
+    id: 5,
+    img: "/images/5.webp",
+    title: "Laneway House Toronto",
+    date: "2024",
+  },
+  {
+    id: 6,
+    img: "/images/6.webp",
+    title: "Residential Mississauga",
+    date: "2023",
+  },
+  {
+    id: 7,
+    img: "/images/7.webp",
+    title: "Residential Mississauga",
+    date: "2023",
+  },
+  {
+    id: 8,
+    img: "/images/8.webp",
+    title: "Cottage Muskoka",
+    date: "2023",
+  },
+  {
+    id: 9,
+    img: "/images/9.webp",
+    title: "Condominium Hamilton",
+    date: "2022",
+  },
+];
+
+export const ALL_PROJECTS = [
   {
     id: 1,
     img: "/images/1.webp",

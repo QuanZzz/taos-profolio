@@ -5,7 +5,7 @@ import "../app/globals.css";
 import { Header } from "@/components/Header";
 import { IconButton } from "@/components/IconButton";
 import { InstagramIcon, TiktokIcon, TwitterIcon } from "@/components/Icons";
-import { projects } from "@/utils/projects";
+import { MAIN_PROJECTS, projects } from "@/utils/projects";
 import { GallerySection } from "@/components/GallerySection";
 import { INSTAGRAM_LINK, TIKTOK_LINK, TWITTER_LINK } from "@/utils/urls";
 import { HightlightSection } from "@/components/HighlightSection";
@@ -26,8 +26,8 @@ export default function Page() {
     <div>
       <Head>
         <link rel="icon" type="image/x-icon" href={favicon.src} sizes="any" />
-        <title>TAOS ARCHITECTURAL VISUALIZATION</title>
-        <meta name="description" content="TAOS ARCHITECTURAL VISUALIZATION" />
+        <title>TAOS&CO. ARCHITECTURE</title>
+        <meta name="description" content="TAOS&CO. ARCHITECTURE" />
       </Head>
       <Layout>
         <Header />
@@ -35,13 +35,10 @@ export default function Page() {
           <div className="md:px-0 pt-20 md:pt-36 h-full flex flex-col mx-auto items-start text-white">
             <Typography
               semiBold={true}
-              className="mx-8 font-rubik text-3xl md:text-6xl"
+              className="mx-8 font-rubik text-3xl md:text-[44px]"
             >
               Luxury in Detail: Architectural Design and Rendering Excellence
             </Typography>
-            {/* <Typography className="mx-8 font-rubik text-base mt-4 md:text-xl">
-              Jerry Wang
-            </Typography> */}
           </div>
           <div></div>
         </div>
@@ -54,31 +51,29 @@ export default function Page() {
             >
               Unveiling Our Latest Works
             </Typography>
-            <div className="flex mt-8 md:mt-0 flex-row md:flex-col items-start text-black">
-              <div className="flex items-center">
-                <IconButton
-                  id="instagramLink"
-                  icon={
-                    <InstagramIcon className="w-12 h-12 mt-2 md:mt-0 md:ml-4 mr-6 md:mr-0" />
-                  }
-                  onClick={(e) => handleOnClick(e)}
-                  target="_blank"
-                  className="hover:text-blue-500"
-                />
-                <IconButton
-                  id="tiktokLink"
-                  icon={
-                    <TiktokIcon className="w-12 h-12 mt-2 md:mt-0 md:ml-4 mr-6 md:mr-0" />
-                  }
-                  onClick={(e) => handleOnClick(e)}
-                  target="_blank"
-                  className="hover:text-blue-500"
-                />
-              </div>
+            <div className="flex mt-8 md:mt-0 flex-row items-start text-black">
+              <IconButton
+                id="instagramLink"
+                icon={
+                  <InstagramIcon className="w-12 h-12 mt-2 md:mt-0 md:ml-4 mr-6 md:mr-0" />
+                }
+                onClick={(e) => handleOnClick(e)}
+                target="_blank"
+                className="hover:text-blue-500"
+              />
+              <IconButton
+                id="tiktokLink"
+                icon={
+                  <TiktokIcon className="w-12 h-12 mt-2 md:mt-0 md:ml-4 mr-6 md:mr-0" />
+                }
+                onClick={(e) => handleOnClick(e)}
+                target="_blank"
+                className="hover:text-blue-500"
+              />
               <IconButton
                 id="twitterLink"
                 icon={
-                  <TwitterIcon className="w-12 h-12 mt-2 md:mt-4 md:ml-4 mr-6 md:mr-0" />
+                  <TwitterIcon className="w-12 h-12 mt-2 md:mt-0 md:ml-4 mr-6 md:mr-0" />
                 }
                 onClick={(e) => handleOnClick(e)}
                 target="_blank"
@@ -90,7 +85,7 @@ export default function Page() {
 
         <HightlightSection />
 
-        <GallerySection projects={projects} />
+        <GallerySection projects={MAIN_PROJECTS} />
       </Layout>
     </div>
   );
