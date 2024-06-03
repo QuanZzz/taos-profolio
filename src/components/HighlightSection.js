@@ -63,7 +63,7 @@ export const HightlightSection = () => (
           className="text-base md:text-lg px-16 md:px-0 md:max-w-[200px] mx-auto pt-5"
         >
           A hidden gem nestled in the back alleys of Toronto, providing a fresh,
-          affordable solution to the city's housing crunch. Designed by
+          affordable solution to the city&apos;s housing crunch. Designed by
           TAOSCO&Unikhouse.
         </Typography>
       </div>
