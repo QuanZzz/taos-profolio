@@ -1,13 +1,19 @@
 import { Typography } from "./Typography";
 import { GalleryCard } from "./GallaryCard";
+import cx from "classnames";
 
-export const GallerySection = ({ projects }) => {
+export const GallerySection = ({ projects, className = "" }) => {
   if (!projects) {
     return;
   }
 
   return (
-    <div className="flex flex-col items-center md:items-start font-rubik">
+    <div
+      className={cx(
+        "flex flex-col items-center md:items-start font-rubik",
+        className
+      )}
+    >
       <Typography className="px-40 py-16 text-lg md:text-2xl font-bold md:pr-32 md:font-black">
         Projects
       </Typography>

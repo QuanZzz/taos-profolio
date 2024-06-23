@@ -5,6 +5,8 @@ import { Header } from "@/components/Header";
 import toast, { Toaster } from "react-hot-toast";
 import Head from "next/head";
 import favicon from "../../public/favicon.ico";
+import { Background } from "@/components/Background";
+import background from "../../public/images/contact.jpg";
 
 export default function Page() {
   const form = useRef();
@@ -42,10 +44,16 @@ export default function Page() {
       </Head>
       <Layout className="h-screen">
         <Header />
-
-        <div className="h-full bg-black flex flex-col justify-center items-center">
+        <div
+          className="h-full bg-black flex flex-col justify-center items-center md:flex-row ms:items-start md:justify-start"
+          style={{
+            backgroundImage: `url(${background.src})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
           <form
-            className="text-white flex flex-col w-60 font-rubik"
+            className="text-white flex flex-col w-72 font-rubik h-auto bg-black opacity-60 md:ml-40 px-5 py-5"
             ref={form}
             onSubmit={sendEmail}
           >
@@ -55,7 +63,6 @@ export default function Page() {
               type="text"
               name="user_name"
               required
-              // onChange={handleOnChange}
             />
             <label className="mt-3 rounded-md">Email</label>
             <input
@@ -63,14 +70,12 @@ export default function Page() {
               type="email"
               name="user_email"
               required
-              // onChange={handleOnChange}
             />
             <label className="mt-3 rounded-md">Message</label>
             <textarea
               className="mt-3 rounded-md h-20 text-black"
               name="message"
               required
-              // onChange={handleOnChange}
             />
             <input
               className="w-24 py-2 bg-blue-500 mt-5 rounded-lg hover:text-indigo-600 cursor-pointer"

@@ -5,7 +5,7 @@ import { ALL_PROJECTS } from "@/utils/projects";
 import { Typography } from "@/components/Typography";
 import { GallerySection } from "@/components/GallerySection";
 import Head from "next/head";
-import favicon from "../../../public/favicon.ico";
+import favicon from "../../../../public/favicon.ico";
 
 export default function Page() {
   const router = useRouter();

@@ -57,6 +57,18 @@ export const MAIN_PROJECTS = [
 
 export const ALL_PROJECTS = [
   {
+    id: 22,
+    img: "/images/22.jpg",
+    title: "Project Lakeshore",
+    date: "2024",
+  },
+  {
+    id: 23,
+    img: "/images/23.jpg",
+    title: "Project Lakeshore",
+    date: "2024",
+  },
+  {
     id: 1,
     img: "/images/1.webp",
     title: "Residential Mississauga",

@@ -1,4 +1,4 @@
-import taosBg from "../../public/images/taos-bg.jpg";
+import taosBg from "../../public/images/contact.jpg";
 import Image from "next/image";
 
 export const Background = () => (
