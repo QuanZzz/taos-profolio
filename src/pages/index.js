@@ -35,7 +35,7 @@ export default function Page() {
           <div className="md:px-0 pt-20 md:pt-36 h-full flex flex-col mx-auto items-start text-white">
             <Typography
               semiBold={true}
-              className="mx-8 font-rubik text-3xl md:text-[44px]"
+              className="mx-8 font-montserrat text-3xl md:text-[44px]"
             >
               Luxury in Detail: Architectural Design and Rendering Excellence
             </Typography>
@@ -43,7 +43,7 @@ export default function Page() {
           <div></div>
         </div>
 
-        <div className="bg-transparent flex flex-col items-center font-rubik">
+        <div className="bg-transparent flex flex-col items-center font-montserrat">
           <div className="py-8 md:px-40 w-full flex flex-col md:flex-row items-center md:justify-between">
             <Typography
               semiBold={true}

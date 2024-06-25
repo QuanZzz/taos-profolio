@@ -10,7 +10,7 @@ export const GallerySection = ({ projects, className = "" }) => {
   return (
     <div
       className={cx(
-        "flex flex-col items-center md:items-start font-rubik",
+        "flex flex-col items-center md:items-start font-montserrat",
         className
       )}
     >

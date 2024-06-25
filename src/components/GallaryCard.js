@@ -33,7 +33,7 @@ export const GalleryCard = ({ className, project }) => {
 
       <div
         className={cx(
-          "hidden md:flex flex-col items-center justify-center absolute inset-0 z-10",
+          "hidden md:flex flex-col items-center justify-center absolute inset-0 z-10 font-montserrat",
           { "md:hidden": !isFlipped }
         )}
       >

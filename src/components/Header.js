@@ -12,11 +12,9 @@ export const Header = () => {
           src={taosLogo}
           alt="taos-design-logo"
           layout="intrinsic"
-          // width={200}
-          // height={100}
         />
       </Link>
-      <div className="flex items-center">
+      <div className="flex items-center font-montserrat">
         <nav className="bg-transparent flex items-center">
           <div className="flex items-center mx-auto w-full px-2.5 text-xs md:text-base md:mr-4">
             <Link href="/contact-us" className="hover:text-[#ba9974]">

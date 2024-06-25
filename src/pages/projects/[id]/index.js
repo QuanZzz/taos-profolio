@@ -31,7 +31,7 @@ export default function Page() {
             <img src={project.img} />
           </div>
           <div className="px-10 py-8">
-            <Typography bold={true} className="text-lg">
+            <Typography bold={true} className="text-lg font-montserrat">
               {project.title}
             </Typography>
           </div>

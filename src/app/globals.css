@@ -10,6 +10,10 @@
   font-family: var(--rubik-font);
 }
 
+.font-montserrat {
+  font-family: var(--montserrat-font);
+}
+
 .bg-main {
   background: 50% / cover no-repeat url("/images/15.webp") black;
 }
