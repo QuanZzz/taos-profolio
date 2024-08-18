@@ -59,7 +59,7 @@ export default function Page() {
                 }
                 onClick={(e) => handleOnClick(e)}
                 target="_blank"
-                className="hover:text-blue-500"
+                className="hover:text-[#ba9974]"
               />
               <IconButton
                 id="tiktokLink"
@@ -68,7 +68,7 @@ export default function Page() {
                 }
                 onClick={(e) => handleOnClick(e)}
                 target="_blank"
-                className="hover:text-blue-500"
+                className="hover:text-[#ba9974]"
               />
               <IconButton
                 id="twitterLink"
@@ -77,7 +77,7 @@ export default function Page() {
                 }
                 onClick={(e) => handleOnClick(e)}
                 target="_blank"
-                className="hover:text-blue-500"
+                className="hover:text-[#ba9974]"
               />
             </div>
           </div>

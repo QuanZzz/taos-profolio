@@ -44,7 +44,7 @@ export default function Page() {
         <title>TAOS ARCHITECTURAL VISUALIZATION</title>
         <meta name="description" content="TAOS ARCHITECTURAL VISUALIZATION" />
       </Head>
-      <Layout className="h-screen">
+      <Layout className="md:h-screen">
         <Header />
         <div
           className="h-full bg-black flex flex-col justify-center items-center md:items-start md:flex-row md:justify-start"
@@ -87,7 +87,7 @@ export default function Page() {
               />
             </form>
 
-            <div className="flex flex-col mt-10 md:mt-0 md:ml-10 h-full font-montserrat">
+            <div className="flex flex-col mt-10 mb-10 md:mt-0 md:ml-10 h-full font-montserrat">
               <Typography
                 className="uppercase tracking-[0.3rem] text-slate-900"
                 size="2xl"

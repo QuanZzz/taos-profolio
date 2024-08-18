@@ -2,8 +2,8 @@ import { Typography } from "./Typography";
 
 export const HightlightSection = () => (
   <>
-    <div className="flex flex-col md:flex-row items-center bg-white">
-      <div className="py-16 md:py-0 w-full md:w-3/12 min-w-[300px] md:max-w-[400px] flex flex-col md:ml-4 font-montserrat tracking-[0.2rem] uppercase">
+    <div className="flex flex-col md:flex-row items-center md:items-end bg-white">
+      <div className="py-16 md:py-10 w-full md:w-3/12 min-w-[300px] md:max-w-[400px] flex flex-col md:ml-4 font-montserrat tracking-[0.2rem] uppercase">
         <Typography
           semiBold={true}
           className="mx-16 md:mx-0 text-xl md:max-w-[300px] w-full text-left"
@@ -28,11 +28,11 @@ export const HightlightSection = () => (
       </div>
     </div>
 
-    <div className="flex flex-col md:flex-row items-center bg-white">
+    <div className="flex flex-col md:flex-row items-center md:items-end bg-white">
       <div className="md:pr-10 pb-10 md:pb-0">
         <img src="/images/20.webp" />
       </div>
-      <div className="py-16 md:py-0 w-full w-3/12 min-w-[300px] max-w-[400px] md:px-5 flex flex-col md:items-end font-montserrat tracking-[0.2rem] uppercase">
+      <div className="py-16 md:py-10 w-full w-3/12 min-w-[300px] max-w-[400px] md:px-5 flex flex-col md:items-end font-montserrat tracking-[0.2rem] uppercase">
         <Typography
           semiBold={true}
           className="mx-16 md:mx-0 text-xl md:max-w-[300px] w-full text-left md:text-right"
@@ -56,8 +56,8 @@ export const HightlightSection = () => (
     </div>
 
     {/* remove opacity if needed */}
-    <div className="flex flex-col md:flex-row items-center bg-white">
-      <div className="py-16 w-full md:w-3/12 min-w-[300px] md:max-w-[400px] md:px-5 flex flex-col md:items-center font-montserrat tracking-[0.2rem] uppercase">
+    <div className="flex flex-col md:flex-row items-center md:items-end bg-white">
+      <div className="py-16 md:py-10 w-full md:w-3/12 min-w-[300px] md:max-w-[400px] md:px-5 flex flex-col md:items-center font-montserrat tracking-[0.2rem] uppercase">
         <Typography
           semiBold={true}
           className="mx-16 md:mx-0 text-xl md:max-w-[300px] w-full text-left"
@@ -65,7 +65,7 @@ export const HightlightSection = () => (
           Project
         </Typography>
         <Typography
-          semiBoldbold={true}
+          semiBold={true}
           className="mx-16 md:mx-0 text-3xl md:max-w-[300px] pb-4"
         >
           Toronto Back Alley
@@ -81,11 +81,11 @@ export const HightlightSection = () => (
       </div>
     </div>
 
-    <div className="flex flex-col md:flex-row items-center bg-white">
+    <div className="flex flex-col md:flex-row items-center md:items-end bg-white">
       <div className="md:pr-10 pb-10 md:pb-0">
         <img src="/images/14.webp" />
       </div>
-      <div className="py-16 md:py-0 w-full w-3/12 min-w-[300px] max-w-[400px] md:px-5 flex flex-col md:items-end font-montserrat tracking-[0.2rem] uppercase">
+      <div className="py-16 md:py-10 w-full w-3/12 min-w-[300px] max-w-[400px] md:px-5 flex flex-col md:items-end font-montserrat tracking-[0.2rem] uppercase">
         <Typography
           semiBold={true}
           className="mx-16 md:mx-0 text-xl md:max-w-[300px] w-full text-left md:text-right"

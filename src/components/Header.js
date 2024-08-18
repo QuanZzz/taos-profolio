@@ -16,16 +16,17 @@ export const Header = () => {
       </Link>
       <div className="flex items-center font-montserrat">
         <nav className="bg-transparent flex items-center">
-          <div className="flex items-center mx-auto w-full px-2.5 text-xs md:text-base md:mr-4">
-            <Link href="/contact-us" className="hover:text-[#ba9974]">
-              Contact us
-            </Link>
-          </div>
-        </nav>
-        <nav className="bg-transparent flex items-center">
           <div className="flex items-center mx-auto w-full px-2.5 text-xs md:text-base">
             <Link href="/projects" className="hover:text-[#ba9974]">
               Projects
+            </Link>
+          </div>
+        </nav>
+
+        <nav className="bg-transparent flex items-center">
+          <div className="flex items-center mx-auto w-full px-2.5 text-xs md:text-base md:mr-4">
+            <Link href="/contact-us" className="hover:text-[#ba9974]">
+              Contact us
             </Link>
           </div>
         </nav>
